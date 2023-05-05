@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM VALIDATION</title>
+        <meta charset="UTF_8">
+        <script src="script.js" defer></script>
+        <link type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="center">
+            <button>total count</button>
+            <form name="form" action="./formSubmitted.html" onsubmit="return validation()" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="enter your name" value="ronak" required><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" value="18" placeholder="enter your age"><br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" value="12345678" placeholder="enter your password"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

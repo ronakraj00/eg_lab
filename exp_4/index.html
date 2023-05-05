@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMAGE MAP</title>
+        <meta charset="UTF_8">
+        <style>
+            img{
+                width: 1280px;
+                height: 850px;
+                /* 2560 1700 */
+                border: 4px solid red;
+                border-radius: 6px;
+            }
+            #container{
+                display: flex;
+            }
+            #para{
+                font-size: 32px;
+                font-weight: bold;
+                color: yellow;
+                background-color: black;
+                text-decoration: underline;
+                text-decoration-color:red ;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <img  src="https://nitkkr.ac.in/wp-content/uploads/2022/12/IMG_0512-scaled.jpg" usemap="#image_map">
+            <map name="image_map">
+                <area alt="president of India" href="https://presidentofindia.nic.in/" title="Droupadi Murmu" coords="968,167,1207,424" shape="rect">
+                <area alt="manohar lal khatar" href="https://haryanacmoffice.gov.in/biography" title="chief minister of Haryana" coords="1128,425,1263,548" shape="rect">
+                <area alt="director nit kkr" href="https://nitkkr.ac.in/?page_id=707#:~:text=B.V.,Ramana%20Reddy&text=He%20recently%20took%20over%20as,years%20(1999%2D2022)." title="director_nit_kkr" coords="475,306,565,543" shape="rect">
+                <area alt="Droupadi Murmu" href="https://presidentofindia.nic.in/" title="Droupadi Murmu" coords="989,505,68" shape="circle">
+            </map>
+            <div id="para">
+                In this image you can click to a person and get info about them.<br><br>
+                Try clicking <br>
+                <ul>
+                    <li>"President"</li>
+                    <li>"Director"</li>
+                    <li>"Chief Minister"</li>
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+</html>

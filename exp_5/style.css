@@ -1,0 +1,17 @@
+
+body {
+    background-size: 400% 400%;
+    transition: background 1s ease;
+}
+
+#center{
+    display: flex;
+    
+    border: 4px solid black;
+
+}
+
+input{
+    border-radius: 8px;
+    background-color: antiquewhite;
+}

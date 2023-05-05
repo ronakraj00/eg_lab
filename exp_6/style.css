@@ -1,0 +1,54 @@
+
+
+#user{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(157, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.circle{
+    border: 2px solid rgb(0, 255, 85);
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 19px;
+    align-items: center;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#circles{
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+
+table{
+    border-collapse: collapse;
+    border-color:chartreuse;
+}
+th,td{
+    padding: 4px;
+}
+
+.color{
+    background-color:chartreuse;
+}
+
+button{
+    background-color: chartreuse;
+    border-color:white;
+    border-radius:8px;
+    border-style:unset
+}
